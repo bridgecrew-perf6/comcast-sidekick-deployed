@@ -1,2 +1,2 @@
-# comcast-sidekick-deployed
-Repository for comcast sidekick deployed files
+# velope-vision
+Test project to practice lightning
