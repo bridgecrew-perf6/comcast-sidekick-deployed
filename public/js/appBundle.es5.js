@@ -3,7 +3,7 @@
  * SDK version: 4.8.1
  * CLI version: 2.7.2
  * 
- * Generated: Sat, 19 Mar 2022 00:33:29 GMT
+ * Generated: Sat, 19 Mar 2022 01:05:00 GMT
  */
 
 var APP_lightning_ui = (function () {
@@ -9894,7 +9894,7 @@ var APP_lightning_ui = (function () {
           },
           SubTitleImage: {
             alpha: 0,
-            x: 83,
+            x: 81,
             y: 171,
             zIndex: 99
           }
@@ -16509,8 +16509,8 @@ var APP_lightning_ui = (function () {
                   image: 'maybelline_logo_white_smaller.png',
                   show: true,
                   y: 211,
-                  width: 225,
-                  height: 28
+                  width: 240,
+                  height: 22
                 }
               },
               Divider2: {
@@ -16688,8 +16688,8 @@ var APP_lightning_ui = (function () {
                 image: 'maybelline_logo_white_smaller.png',
                 show: true,
                 y: 181,
-                width: 225,
-                height: 28
+                width: 240,
+                height: 22
               }
             },
             ProductList: {
