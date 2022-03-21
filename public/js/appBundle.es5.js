@@ -3,7 +3,7 @@
  * SDK version: 4.8.1
  * CLI version: 2.7.2
  * 
- * Generated: Mon, 21 Mar 2022 19:31:36 GMT
+ * Generated: Mon, 21 Mar 2022 20:46:12 GMT
  */
 
 var APP_lightning_ui = (function () {
@@ -15117,9 +15117,7 @@ var APP_lightning_ui = (function () {
           }, {
             key: "_handleLeft",
             value: function _handleLeft() {
-              if (this.currentIndex === 0) {
-                this._setState('Hidden');
-              } else {
+              if (this.currentIndex === 0) ; else {
                 if (this.currentIndex == 1) this.$changeTabsVisibility(true); // this._tabsPosition = 30
 
                 this.currentIndex--;
@@ -15129,9 +15127,7 @@ var APP_lightning_ui = (function () {
           }, {
             key: "_handleBack",
             value: function _handleBack() {
-              if (this.currentIndex === 0) {
-                this._setState('Hidden');
-              } else {
+              if (this.currentIndex === 0) ; else {
                 console.log(this._tabs);
                 this._tabsPosition = 0;
                 this.currentIndex = 0; // this._toggleGradient(this.currentIndex)
@@ -15217,10 +15213,6 @@ var APP_lightning_ui = (function () {
         if (useVideo == 'true') {
           VideoPlayer.open(videoUrl);
           VideoPlayer.loop();
-        } else {
-          this.tag('Background').patch({
-            alpha: 1
-          });
         }
       }
     }, {
@@ -15244,16 +15236,6 @@ var APP_lightning_ui = (function () {
         return {
           w: 1920,
           h: 1080,
-          Background: {
-            w: function w(_w) {
-              return _w;
-            },
-            h: function h(_h) {
-              return _h;
-            },
-            src: Utils.asset('images/runway_background.jpg'),
-            alpha: 0
-          },
           Sidekick: {
             type: Sidekick
           }
