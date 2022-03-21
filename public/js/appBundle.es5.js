@@ -3,7 +3,7 @@
  * SDK version: 4.8.1
  * CLI version: 2.7.2
  * 
- * Generated: Mon, 21 Mar 2022 20:46:12 GMT
+ * Generated: Mon, 21 Mar 2022 22:31:05 GMT
  */
 
 var APP_lightning_ui = (function () {
@@ -15117,7 +15117,9 @@ var APP_lightning_ui = (function () {
           }, {
             key: "_handleLeft",
             value: function _handleLeft() {
-              if (this.currentIndex === 0) ; else {
+              if (this.currentIndex === 0) {
+                this._setState('Hidden');
+              } else {
                 if (this.currentIndex == 1) this.$changeTabsVisibility(true); // this._tabsPosition = 30
 
                 this.currentIndex--;
@@ -15127,7 +15129,9 @@ var APP_lightning_ui = (function () {
           }, {
             key: "_handleBack",
             value: function _handleBack() {
-              if (this.currentIndex === 0) ; else {
+              if (this.currentIndex === 0) {
+                this._setState('Hidden');
+              } else {
                 console.log(this._tabs);
                 this._tabsPosition = 0;
                 this.currentIndex = 0; // this._toggleGradient(this.currentIndex)
@@ -15174,8 +15178,8 @@ var APP_lightning_ui = (function () {
               this._setState('Showing');
             }
           }, {
-            key: "_handleBack",
-            value: function _handleBack() {
+            key: "_handleEnter",
+            value: function _handleEnter() {
               this._setState('Showing');
             }
           }]);
