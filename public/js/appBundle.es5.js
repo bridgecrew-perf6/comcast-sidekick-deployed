@@ -3,7 +3,7 @@
  * SDK version: 4.8.1
  * CLI version: 2.7.2
  * 
- * Generated: Mon, 21 Mar 2022 19:17:27 GMT
+ * Generated: Mon, 21 Mar 2022 19:31:36 GMT
  */
 
 var APP_lightning_ui = (function () {
@@ -15212,9 +15212,9 @@ var APP_lightning_ui = (function () {
       key: "_init",
       value: function _init() {
         var useVideo = QueryParams$1.get('useVideo');
+        var videoUrl = 'static/videos/runway-compressed-1.mp4';
 
         if (useVideo == 'true') {
-          var videoUrl = 'static/videos/runway-compressed-1.mp4';
           VideoPlayer.open(videoUrl);
           VideoPlayer.loop();
         } else {
