@@ -3,7 +3,7 @@
  * SDK version: 4.8.1
  * CLI version: 2.7.2
  * 
- * Generated: Sat, 19 Mar 2022 01:05:00 GMT
+ * Generated: Mon, 21 Mar 2022 19:17:27 GMT
  */
 
 var APP_lightning_ui = (function () {
@@ -9780,7 +9780,7 @@ var APP_lightning_ui = (function () {
               switch (_context.prev = _context.next) {
                 case 0:
                   brand = _args.length > 0 && _args[0] !== undefined ? _args[0] : null;
-                  url = "https://commerce.nbcuni.com/public/api/v3/nbcu-bravo/products/list".concat(brand != null ? "?brands=".concat(brand) : '');
+                  url = "https://commerce.nbcuni.com/public/api/v3/nbcu-bravo/products/list?categories=project-runway-demo".concat(brand != null ? "&brands=".concat(brand) : '');
                   _context.next = 4;
                   return fetch(url, {
                     method: 'GET',
@@ -12122,2152 +12122,12 @@ var APP_lightning_ui = (function () {
 
   var results = [
   	{
-  		id: "3c9dc914-0bc5-4231-a912-0ef66502e9ec",
-  		version: 234,
-  		key: "74be1122-15bc-4dbc-a230-02357ed40cde",
-  		name: "Disk Layered Necklace with Coin Pendant",
-  		description: "Delicate disks and a striking coin pendant make this layered necklace a must-wear! You'll want to add this accessory, which is made from high quality materials, to every outfit that you own. Available in gold and silver tones. \nmaterials: 14k gold or rhodium plated brass\nfeatures: measures 12-18\" with 2\" extender, 18mm coin, 4.5mm links, 4mm disks, lead and nickel free, lobster clasp",
+  		id: "0fe79423-4738-4131-bf27-7d25ff2761b5",
+  		version: 9,
+  		key: "654322",
+  		name: "TattooStudio Eyeliner Pencil",
+  		description: "Maybelline tattoo studio sharpenable gel pencil draws on up to 36-hour tattoo intensity. Waterproof, smudge resistant, sebum resistant formula.",
   		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "madeInCountry",
-  				label: "Made in",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Gold: "Gold",
-  					Silver: "Silver"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-accessories-womens-jewelry-necklaces",
-  				name: "Necklaces"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "N1NB0966LY",
-  				key: "N1NB0966LY",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Gold"
-  				},
-  				offers: [
-  					{
-  						id: "27266",
-  						currency: "USD",
-  						price: 6400,
-  						originPrice: 6400,
-  						freeShipping: true,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 50
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7ce80272e1b44f07a7b6-j66tvCWu.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "N2NB0965LY",
-  				key: "N2NB0965LY",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Silver"
-  				},
-  				offers: [
-  					{
-  						id: "27017",
-  						currency: "USD",
-  						price: 6400,
-  						originPrice: 6400,
-  						freeShipping: true,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/540d99ae032d44ebbaef-DVR7A7hQ.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "333ece7c-ebae-4d6f-b41b-af35bbe76b67",
-  		version: 26,
-  		key: "8d40b63c-9d5b-4973-8061-c0c3a0466447",
-  		name: "Coin, Textured Disk, & Bar Layered Necklace",
-  		description: "If you need a dainty and feminine layered necklace that will give you that golden glow, look no further. Our coin, textured disk and bar layered necklace is just the piece for you! This accessory adds plenty of visual interest without making your outfit too busy, and can pair wonderfully with many of the items in your wardrobe. Made from high-quality materials to ensure years of love.\nMaterials: 14k gold plated brassfeatures: measures 13-21\" with 2\" extender,  29.5mm bars, 14.5mm round coin, 8mm textured disk, lead and nickel free, lobster clasp",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "madeInCountry",
-  				label: "Made in",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Gold: "Gold"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-accessories-womens-jewelry-necklaces",
-  				name: "Necklaces"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "N1NB0594LY",
-  				key: "N1NB0594LY",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Gold"
-  				},
-  				offers: [
-  					{
-  						id: "27321",
-  						currency: "USD",
-  						price: 9400,
-  						originPrice: 9400,
-  						freeShipping: true,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 50
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/2ce4af2de1454410b1c6-IYNB-6Wt.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "ac33f11e-0d4d-4ac9-8381-2352adc5e404",
-  		version: 147,
-  		key: "d0ffafd1-8326-4923-87de-069f0706e5c6",
-  		name: "Textured Oval Link Chain",
-  		description: "These bold textured oval links make this necklace stand apart from your ordinary chain link necklaces! Available in gleaming gold and striking silver, this necklace is great for layering or wearing all on its own.\nMaterials: 14k gold or rhodium plated brass\nfeatures: hook on any chain link for the perfect length up to 19\", lead and nickel free, lobster clasp",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "madeInCountry",
-  				label: "Made in",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Gold: "Gold",
-  					Silver: "Silver"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-accessories-womens-jewelry-necklaces",
-  				name: "Necklaces"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "N2NB1464CH",
-  				key: "N2NB1464CH",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Silver"
-  				},
-  				offers: [
-  					{
-  						id: "26110",
-  						currency: "USD",
-  						price: 4800,
-  						originPrice: 4800,
-  						freeShipping: false,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 50
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ea923272172040078723-RIF4gxaG.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "N1NB1463CH",
-  				key: "N1NB1463CH",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Gold"
-  				},
-  				offers: [
-  					{
-  						id: "26109",
-  						currency: "USD",
-  						price: 4800,
-  						originPrice: 4800,
-  						freeShipping: false,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 50
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/725bbae5d99f4c3abd1a-Y85rqZq7.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "3187c2d3-d2b6-4943-8a32-f7a5d9485fc8",
-  		version: 22,
-  		key: "311b96a4-9f30-4dac-aa1e-e8a5617292c4",
-  		name: "Moon & Sun Face Pendant Necklace",
-  		description: "Shine bright as the moon and glow like the sun, thanks to this necklace. The pendant features the design of a combined sun and moon and will add some mysterious glamour to any outfit you wear it with. Talk about the perfect accessory for wearing from day to night!\nMaterials: 14k gold, 14k rose gold, ﻿or﻿﻿ rhodium plated brass\nfeatures: approx. 20\" length with 2\" extension, 20mm pendant, lead and nickel free, lobster clasp",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "madeInCountry",
-  				label: "Made in",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Gold: "Gold"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-accessories-womens-jewelry-necklaces",
-  				name: "Necklaces"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "N1NB0806P",
-  				key: "N1NB0806P",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Gold"
-  				},
-  				offers: [
-  					{
-  						id: "27843",
-  						currency: "USD",
-  						price: 5600,
-  						originPrice: 5600,
-  						freeShipping: true,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 50
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/cbede791f4d148859a9d-0YlQCjrB.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "ab4185a9-d8dc-4c29-8546-881f939ebc44",
-  		version: 32,
-  		key: "4de4defa-bcda-4209-9795-a695411fb23c",
-  		name: "Om Symbol Pendant Necklace",
-  		description: "Honor the universe and your place within it with this om symbol pendant necklace. The om is plated in 14k gold and hangs from an adjustable chain so you can ensure a perfect fit when you wear it. It's the perfect accessory for anyone who seeks a deeper meaning out of life.\nMaterials: 14k gold plated brass\nfeatures: approx. 16\" length with 2\" extension featuring sturdy lobster clasp, 10mm pendant",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "madeInCountry",
-  				label: "Made in",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Gold: "Gold"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-accessories-womens-jewelry-necklaces",
-  				name: "Necklaces"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "SSR9-1B",
-  				key: "SSR9-1B",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Sterling Forever",
-  					madeInCountry: "China"
-  				},
-  				attributes: {
-  					color: "Gold"
-  				},
-  				offers: [
-  					{
-  						id: "27840",
-  						currency: "USD",
-  						price: 5400,
-  						originPrice: 5400,
-  						freeShipping: true,
-  						channel: {
-  							id: "50d8d2f0-0ae7-48b2-bc67-90c1b1bdd726",
-  							key: "2003",
-  							name: "Sterling Forever"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7cac838c66014efbb616-cRjzyL2l.png",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "440ca015-d7f4-44af-a30c-ba9ee852ba19",
-  		version: 120,
-  		key: "5fed463f-4705-4d7c-a079-44a64297aabf",
-  		name: "Cozy Knit Seamed Moto Legging",
-  		description: "Part biker babe, part softie, these cozy leggings with ribbed moto panels have lots of personality. And that's a good thing. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Black: "Black"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-pants_and_leggings-leggings",
-  				name: "Leggings"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8351-VBLK2",
-  				key: "CW8351-VBLK2",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Black"
-  				},
-  				offers: [
-  					{
-  						id: "32588",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 7
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/beb1ac490b844df7aedc-dWqdpUo2.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/1e363b1b3504457fb582-GTpbdbNi.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/cdecfa8dba5b4aeb9dae-0JSduJIg.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/eeae7e8991b0406fb265-Go_eQjGh.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/000cae52c96843508618-1H_tu8yV.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "CW8351-VBLK4",
-  				key: "CW8351-VBLK4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Black"
-  				},
-  				offers: [
-  					{
-  						id: "32582",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 2
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/c3c97970fad7439b8983-SDighyyt.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/de0407938aaf4c468c6d-5IoenE0J.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/30f776f7d70e4da59d78-iTSq5iiR.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/826f270c822044b78cd6-AKFVQuxd.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/15d88e787f724523b5c6-t_PYxauj.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 3,
-  				sku: "CW8351-VBLK3",
-  				key: "CW8351-VBLK3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Black"
-  				},
-  				offers: [
-  					{
-  						id: "32572",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 7
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/423e4a1c625046749cb2-do9lghdu.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/4b91b240d5354b5d82d0-HR26DsHH.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/2a8ec575818d4f9fa5ff-tNUZkkcw.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/729119c8d4e34daea2fb-HNQ6wLxa.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/9a2b0d5662b143b0902e-mzaTUuxY.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 4,
-  				sku: "CW8351-VBLK1",
-  				key: "CW8351-VBLK1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Black"
-  				},
-  				offers: [
-  					{
-  						id: "32574",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 1
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/389999e3752e45df86d7-0GVKSSkO.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/9468d663e2f249e09c1c-fvwub2ev.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/d7e8c1e40cfb4c6d9186-i1f0bxE2.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/17dc158b4fac4466aa79-lZ-Kf1V2.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/12ac0ead0f364e73b51d-0PI0Qrrq.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "b9769ed2-fa11-4f71-9cc4-670c766a9d25",
-  		version: 133,
-  		key: "7098c63d-2890-4bf7-aff9-21c76076cd23",
-  		name: "Quadrablend Paneled Rib Legging",
-  		description: "Get a leg up on your athleisure game with our wear-everywhere paneled leggings. Yep, that means no more outfit changes from crunch to brunch. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Camo print": "Camo print"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-pants_and_leggings-leggings",
-  				name: "Leggings"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8362-CAMO4",
-  				key: "CW8362-CAMO4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Camo print"
-  				},
-  				offers: [
-  					{
-  						id: "32585",
-  						currency: "USD",
-  						price: 7900,
-  						originPrice: 7900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/4ddf84c4b4c948be8942-okJvEqaR.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/997bfd99fb9e4a9d9ff3-tq879Quh.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/591b52649dd041b88438-QLbTxaWm.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/2b7caa2620744e3b87e8-A5DOvwq7.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/e574f3867b584511824a-PClveYUk.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/b60e461155d7456493f0-RmXHho1C.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "5bb78fef-ce9b-4ad4-918d-37f477828640",
-  		version: 125,
-  		key: "0b04cb89-e0b4-4cd1-b530-248d795ea5a2",
-  		name: "Skulls",
-  		description: "Cashmere is a girl's best friend. That's why we're loving this lightweight layer, designed with an edgy skull print and sophisticated wide scoop neck.",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Heather gray": "Heather gray"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-sweaters",
-  				name: "Sweaters"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW6954-CHA5500-HGRY1",
-  				key: "CW6954-CHA5500-HGRY1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Heather gray"
-  				},
-  				offers: [
-  					{
-  						id: "32541",
-  						currency: "USD",
-  						price: 9900,
-  						originPrice: 9900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ec0fab239d6e432f84ea-nFkErrN1.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ad6b770a28a140198a11-VaqEhYk_.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/78602397210d4ea0b414-Q-391mtc.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/54eb2f17b63d47b5a825-985H7FPc.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "691ada48-c38d-4ed3-9cef-62dbf3cfffab",
-  		version: 127,
-  		key: "6737c5ac-7366-4dcf-9e70-80784cccaefa",
-  		name: "Triblend Rib Long Sleeve Split Neck Raglan Shirttail Mini Dress",
-  		description: "Part t-shirt, part dress,100% magic. Experience the everyday ease of this split neck mini and you'll end up with one in every color. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Tie Dye": "Tie Dye"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-dresses",
-  				name: "Dresses"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8369-TIE1",
-  				key: "CW8369-TIE1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Tie Dye"
-  				},
-  				offers: [
-  					{
-  						id: "32647",
-  						currency: "USD",
-  						price: 7900,
-  						originPrice: 7900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 2
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/a7fdaf85ddc143ffb895-t48Jfqzh.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ec002b6da0cf4b5dbe4b-8ZOWiDj_.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/291315e6d98342ebb652-6Z1qav0c.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "CW8369-TIE3",
-  				key: "CW8369-TIE3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Tie Dye"
-  				},
-  				offers: [
-  					{
-  						id: "33382",
-  						currency: "USD",
-  						price: 7900,
-  						originPrice: 7900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 3
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/77c13313aaab41968c30-i1_tuiIt.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ec002b6da0cf4b5dbe4b-yrVjwYRS.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/291315e6d98342ebb652-HrfWx1GM.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 3,
-  				sku: "CW8369-TIE2",
-  				key: "CW8369-TIE2",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Tie Dye"
-  				},
-  				offers: [
-  					{
-  						id: "33381",
-  						currency: "USD",
-  						price: 7900,
-  						originPrice: 7900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 6
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/77c13313aaab41968c30-oPcAV41H.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ec002b6da0cf4b5dbe4b-2a2LSvkG.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/291315e6d98342ebb652-iAijLB9E.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 4,
-  				sku: "CW8369-TIE4",
-  				key: "CW8369-TIE4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Tie Dye"
-  				},
-  				offers: [
-  					{
-  						id: "33377",
-  						currency: "USD",
-  						price: 7900,
-  						originPrice: 7900,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/77c13313aaab41968c30-f1lqBWea.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ec002b6da0cf4b5dbe4b-AxkIUIb_.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/291315e6d98342ebb652-xmSbWCzn.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "192e21fd-cfa0-40c2-8ef5-5b67f4379ca4",
-  		version: 182,
-  		key: "663b8226-e04a-4595-8d73-8f2da8a0134e",
-  		name: "Cashmere Fleece Long Sleeve Blazer with Strappings",
-  		description: "It's a blazer. It's a sweatshirt. It's a swazer? Whatever you choose to call it, this dreamy lounge piece blends sophistication with softness in the most perfect way possible. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Avalon, dark blue with white stripes": "Avalon, dark blue with white stripes"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-blazers",
-  				name: "Blazers"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8348-AVAWHT3",
-  				key: "CW8348-AVAWHT3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Avalon, dark blue with white stripes"
-  				},
-  				offers: [
-  					{
-  						id: "32651",
-  						currency: "USD",
-  						price: 9700,
-  						originPrice: 9700,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/074fd8c079e74845b2cf-y7SRc-C_.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/b7290e57e7b64a38986a-k8ffKu1C.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/9212772f83494f418d95-VV50ktDB.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/a39cf5e86c45454d9daf-U7iJK914.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/c895243b96704e54af60-3dyg0RNW.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "5b41c54c-df21-469d-8487-5eb284e1d9e8",
-  		version: 76,
-  		key: "64299929-2a6e-4bb2-84ae-0700f95c3335",
-  		name: "Viscose Blend Menagerie Print Oversized Long Sleeve Raglan Pullover Sweater",
-  		description: "Tune into this episode of sweaters gone wild, featuring a menagerie animal print knit with a stylish oversized fit. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Menagerie, animal print": "Menagerie, animal print"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-sweaters",
-  				name: "Sweaters"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 3,
-  				sku: "CW8419-MGRI2",
-  				key: "CW8419-MGRI2",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Menagerie, animal print"
-  				},
-  				offers: [
-  					{
-  						id: "33379",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 1
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/c542fde71ace446f9820-3Ow3_G2G.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/e7b9738a24ac4615b6bf-NE13txjh.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/222d47e215c244aab19e-9-uvy8Fy.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 1,
-  				sku: "CW8419-MGRI1",
-  				key: "CW8419-MGRI1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Menagerie, animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32534",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/c542fde71ace446f9820-iwx9n-cb.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/3eebc73615144d57a562-3upoQpAA.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/f0504a7383f34df2a95c--yE_y73F.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "CW8419-MGRI4",
-  				key: "CW8419-MGRI4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Menagerie, animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32545",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/c542fde71ace446f9820-HmMCP7xn.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/1a9b1002ea1f46a4ad01-Axj0P6_v.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/2a11d7d9e0994dbe812b-bkGTPpvp.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 4,
-  				sku: "CW8419-MGRI3",
-  				key: "CW8419-MGRI3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Menagerie, animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32551",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 5
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/e2c0f1f1a5d44f1d9963-mbv166fX.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/3eebc73615144d57a562-Ot1uWJt3.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/d624103ef3054f779dce-S_Z6Bexh.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "fca6ee14-a885-41ed-ad33-19dc1adcab59",
-  		version: 126,
-  		key: "1c8bfaaf-d379-499f-98cd-0be1bf663c59",
-  		name: "Cozy Knit Seamed Moto Legging",
-  		description: "Part biker babe, part softie, these cozy leggings with ribbed moto panels have lots of personality. And that's a good thing. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Green: "Green"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-pants_and_leggings-leggings",
-  				name: "Leggings"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8351-SCCLNT4",
-  				key: "CW8351-SCCLNT4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Green"
-  				},
-  				offers: [
-  					{
-  						id: "32586",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/8ffbcf6004e44e978f30-atSEII2I.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/6564b09166d94fd5b73d-Xw5zaQs4.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/08eaa19d4c384548ab0c-p1sTTv5D.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/d5d2345ea33e4a9ba73a-2q6GCEAt.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "d12f5911-7dce-494b-86fd-bb0e8a51d8ef",
-  		version: 143,
-  		key: "111eef65-9db3-4059-9f4a-89d92fc7baa2",
-  		name: "Cashmere Fleece Long Sleeve Blazer with Strappings",
-  		description: "It's a blazer. It's a sweatshirt. It's a swazer? Whatever you choose to call it, this dreamy lounge piece blends sophistication with softness in the most perfect way possible. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Heather gray with dark blue stripes": "Heather gray with dark blue stripes"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-blazers",
-  				name: "Blazers"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8348-HGAVA4",
-  				key: "CW8348-HGAVA4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Heather gray with dark blue stripes"
-  				},
-  				offers: [
-  					{
-  						id: "32650",
-  						currency: "USD",
-  						price: 9700,
-  						originPrice: 9700,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/a6b6eb412c094fbcb885-FEx7b7BE.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/6a98401c3f6049b2b5c1-_cS9FCKq.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/4153e49f119142e6af40-897dn02C.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ba4ebcdd90cb437c8609-GGD8_oXx.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/8bf8c3bae5c241449bb8-lZhOwPVq.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "5920144c-b6f8-4f6c-91cc-2434d6c72dac",
-  		version: 124,
-  		key: "baf2e9ef-0f1a-44e7-9378-f208d7ac14e8",
-  		name: "Cozy Knit Seamed Moto Legging",
-  		description: "Part biker babe, part softie, these cozy leggings with ribbed moto panels have lots of personality. And that's a good thing. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					Multi: "Multi"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-pants_and_leggings-leggings",
-  				name: "Leggings"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8351-ABANM4",
-  				key: "CW8351-ABANM4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Multi"
-  				},
-  				offers: [
-  					{
-  						id: "32566",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/4af877821fab4a0c82f3-XPSV58Bo.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/5d454f77d1344378b463-yg02i_DW.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7783087ec4604b35a153-G176lZJ7.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7c9e4b49863a4ef49ae5-mkSkuRDr.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ed6d581b799a4ed2a320-oAYFweM9.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7bca99c0be4b444b8fab-vV0jonEx.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "4508edbc-5411-4995-9b42-5bb8e693724d",
-  		version: 113,
-  		key: "054ad7de-8cba-427e-a553-4345c349b563",
-  		name: "Viscose Blend Micro Animal Print Oversized Long Sleeve Raglan Pullover Sweater",
-  		description: "Tune into this episode of sweaters gone wild, featuring an animal print knit with a stylish oversized fit. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Micro animal print": "Micro animal print"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-sweaters",
-  				name: "Sweaters"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8419-MICANM4",
-  				key: "CW8419-MICANM4",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Micro animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32540",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 4
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ef4381644d734103af6d-VCZtLpTx.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/160832a5938a4e02b080-Ov2nycfB.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/34999bd427a34a68b24b-6EOzjDSY.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 2,
-  				sku: "CW8419-MICANM2",
-  				key: "CW8419-MICANM2",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Micro animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32559",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 4
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/5689a7ea4e4140748af8-UUd2fKi2.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/75eb1b8c20354d53a7ac-wKmm15tY.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/02ebae028c9448acb805-4SR0FTez.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 3,
-  				sku: "CW8419-MICANM1",
-  				key: "CW8419-MICANM1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Micro animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32557",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 3
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/ef4381644d734103af6d-gS_JV3xQ.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/75eb1b8c20354d53a7ac-XNAAOrJ6.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/57001d54e783422795d2-a_dCax_E.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			},
-  			{
-  				id: 4,
-  				sku: "CW8419-MICANM3",
-  				key: "CW8419-MICANM3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Micro animal print"
-  				},
-  				offers: [
-  					{
-  						id: "32549",
-  						currency: "USD",
-  						price: 9200,
-  						originPrice: 9200,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: true,
-  						availableQuantity: 4
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/aaf42f969fe743fbbb06-K2qCe15q.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/75eb1b8c20354d53a7ac-OM1L4q94.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/bfd60b1749ec42cb99bb-ViusVCt9.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "cece4946-b777-4201-99c6-b7847807e8ff",
-  		version: 91,
-  		key: "8b53b54d-f685-4b43-8b70-4c548c66c687",
-  		name: "Lightweight Cotton Blend Camo Long Sleeve Pullover Sweater",
-  		description: "Let's be real, the only reason we like the cold is for the cute sweaters (okay, and the hot toddies, too). Layer up when the temps drop with our cool camo sweater that looks killer under a chunky coat. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Camo print": "Camo print"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-sweaters",
-  				name: "Sweaters"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8418-CAMO3",
-  				key: "CW8418-CAMO3",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Camo print"
-  				},
-  				offers: [
-  					{
-  						id: "32536",
-  						currency: "USD",
-  						price: 8800,
-  						originPrice: 8800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/009fa8c4f98b446b9922-FDOL7-f9.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/3ce17f5f1ff948d5802d-ypK1butB.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/3ba2e920b526400c907c-HSmLafe9.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/2496eace41a44483b754-H9FKb1Om.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "927067a1-9bd8-42be-b7ac-f5eb12c4c3cf",
-  		version: 127,
-  		key: "500fbc3f-3c5f-4b1d-a455-b3b6dfe91fbc",
-  		name: "Stretch Twill Contrast Hooded Blazer",
-  		description: "A blazer and sweatshirt all in one? Okay, we're kind of geniuses—really stylish ones at that. ",
-  		attributeDefinitions: [
-  			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
-  			{
-  				name: "color",
-  				label: "Color",
-  				isSameForAll: false,
-  				isText: false,
-  				isBoolean: false,
-  				isList: true,
-  				listOptions: {
-  					"Washed Black, faded black": "Washed Black, faded black"
-  				}
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "apparel_and_shoes_and_accessories-apparel-womens-blazers",
-  				name: "Blazers"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "CW8446-WBLK1",
-  				key: "CW8446-WBLK1",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					brand: "Chaser"
-  				},
-  				attributes: {
-  					color: "Washed Black, faded black"
-  				},
-  				offers: [
-  					{
-  						id: "32652",
-  						currency: "USD",
-  						price: 12800,
-  						originPrice: 12800,
-  						freeShipping: true,
-  						channel: {
-  							id: "e7038f15-d36f-4ed0-8163-5aa3e60b2fcd",
-  							key: "2038",
-  							name: "Chaser"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/9231720927ed48b09fdb-Go6K4oU7.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/267b7ccef5aa429d8abb-zM7TM19o.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7eea201dc99d40ca9072-RKip-Iis.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/4c9f506cff244d54b186-u83-R5y3.jpg",
-  						width: 1400,
-  						height: 1400
-  					},
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/89ae2272fc0e42dea716-kYjr7PL1.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "849956c9-d65e-45fd-a5bf-2a40154fe865",
-  		version: 30,
-  		key: "9781506705057",
-  		name: "Star Trek: The Next Generation Adult Coloring Book Volume 02 - Continuing Missions TPB",
-  		description: "Join your favorite characters for another voyage with star trek: the next generation adult coloring book--continuing missions! With forty-five brand-new, highly detailed black-and-white images to color however you choose, this collection of beautiful illustrations is a must-have for star trek fans everywhere!",
-  		attributeDefinitions: [
-  			{
-  				name: "author",
-  				label: "Author",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
   			{
   				name: "brand",
   				label: "Brand Name",
@@ -14279,43 +12139,122 @@ var APP_lightning_ui = (function () {
   		],
   		categories: [
   			{
-  				key: "books",
-  				name: "Books"
+  				key: "beauty-makeup-eyes-eyeliner",
+  				name: "Eyeliner"
+  			},
+  			{
+  				key: "project-runway-demo",
+  				name: "Project Runway Demo"
   			}
   		],
   		variants: [
   			{
   				id: 1,
-  				sku: "3001282",
-  				key: "3001282",
-  				name: "",
+  				sku: "may-2",
+  				key: "may-2",
+  				name: "TattooStudio Eyeliner Pencil",
   				isRefundable: true,
   				sameAttributes: {
-  					author: "Juan Cabal,Gabriel Guzman,Bill Mudron,Shea Standefer",
-  					brand: "Dark Horse Comics"
+  					brand: "Maybelline"
   				},
   				attributes: {
   					color: ""
   				},
   				offers: [
   					{
-  						id: "34691",
+  						id: "141985",
   						currency: "USD",
-  						price: 1199,
-  						originPrice: 1499,
-  						freeShipping: false,
+  						price: 999,
+  						originPrice: 999,
+  						freeShipping: true,
   						channel: {
-  							id: "729c750f-7abd-4bbe-84ad-bca6d1097425",
-  							key: "2004",
-  							name: "Things From Another World"
+  							id: "dfc1d9ae-a21f-458c-9e5b-62b2e3389ac6",
+  							key: "2106",
+  							name: "Blackstone Commerce"
   						},
-  						isOnStock: false,
-  						availableQuantity: 0
+  						isOnStock: true,
+  						availableQuantity: 100
   					}
   				],
   				images: [
   					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/b1063f3dbde64325a724-h2j2AUsU.jpg",
+  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/d324958b14dc4c24b1cf-wvesvnpe.jpeg",
+  						width: 500,
+  						height: 500
+  					}
+  				]
+  			}
+  		]
+  	},
+  	{
+  		id: "e79c7763-ad1d-421b-942f-a37768cf5c63",
+  		version: 11,
+  		key: "654321",
+  		name: "Color Sensational Ultimatte Slim Lipstick",
+  		description: "Maybelline's color sensational ultimatte neo-neutrals slim lipstick has a lightweight, blurring formula with high-impact pigments and an extreme matte lipstick finish.",
+  		attributeDefinitions: [
+  			{
+  				name: "brand",
+  				label: "Brand Name",
+  				isSameForAll: true,
+  				isText: true,
+  				isBoolean: false,
+  				isList: false
+  			},
+  			{
+  				name: "color",
+  				label: "Color",
+  				isSameForAll: false,
+  				isText: false,
+  				isBoolean: false,
+  				isList: true,
+  				listOptions: {
+  					Mauve: "Mauve"
+  				}
+  			}
+  		],
+  		categories: [
+  			{
+  				key: "beauty-makeup-lips-lipstick",
+  				name: "Lipstick"
+  			},
+  			{
+  				key: "project-runway-demo",
+  				name: "Project Runway Demo"
+  			}
+  		],
+  		variants: [
+  			{
+  				id: 1,
+  				sku: "may-1",
+  				key: "may-1",
+  				name: "Color Sensational Ultimatte Slim Lipstick",
+  				isRefundable: true,
+  				sameAttributes: {
+  					brand: "Maybelline"
+  				},
+  				attributes: {
+  					color: "Mauve"
+  				},
+  				offers: [
+  					{
+  						id: "141984",
+  						currency: "USD",
+  						price: 949,
+  						originPrice: 949,
+  						freeShipping: true,
+  						channel: {
+  							id: "dfc1d9ae-a21f-458c-9e5b-62b2e3389ac6",
+  							key: "2106",
+  							name: "Blackstone Commerce"
+  						},
+  						isOnStock: true,
+  						availableQuantity: 100
+  					}
+  				],
+  				images: [
+  					{
+  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/88c4bc12bc114f788437-jYqM5aFW.jpeg",
   						width: 1400,
   						height: 1400
   					}
@@ -14324,20 +12263,12 @@ var APP_lightning_ui = (function () {
   		]
   	},
   	{
-  		id: "a501b237-d012-4841-a24d-910eee4e490b",
-  		version: 48,
-  		key: "9781506713526",
-  		name: "FF DOT: The Pixel Art of Final Fantasy HC",
-  		description: "Experience the intriguing evolution of pixel art from the final fantasy's series! Containing detailed sprite sheets that showcase the pixel composition of final fantasy beloved characters, maps of final fantasy's most popular world's tools used by the developers, and a special interview with character artist kazuko shibuya, ff dot is a one-of-a-kind product that immerses readers in an iconic aspect of the final fantasy experience. * presented in english for the first time. * produced in direct partnership with square enix. * features nearly 300 pages of pixel art from various entries in the final fantasy series. * contains an exclusive interview with kazuko shibuya, the character pixel artist for the final fantasy series.",
+  		id: "c53199d8-739f-48f8-9c1c-8c144b0e5cb8",
+  		version: 11,
+  		key: "654323",
+  		name: "Brow Ultra Slim Defining Eyebrow Pencil",
+  		description: "Maybelline ultra slim brow pencil delivers precisely defined brows for a natural brow look. Featuring a 1.5 mm precision tip and spoolie brush.",
   		attributeDefinitions: [
-  			{
-  				name: "author",
-  				label: "Author",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			},
   			{
   				name: "brand",
   				label: "Brand Name",
@@ -14349,115 +12280,48 @@ var APP_lightning_ui = (function () {
   		],
   		categories: [
   			{
-  				key: "books",
-  				name: "Books"
-  			}
-  		],
-  		variants: [
-  			{
-  				id: 1,
-  				sku: "3003635",
-  				key: "3003635",
-  				name: "",
-  				isRefundable: true,
-  				sameAttributes: {
-  					author: "Square Enix",
-  					brand: "Dark Horse Comics"
-  				},
-  				attributes: {
-  					color: ""
-  				},
-  				offers: [
-  					{
-  						id: "34670",
-  						currency: "USD",
-  						price: 1999,
-  						originPrice: 2499,
-  						freeShipping: false,
-  						channel: {
-  							id: "729c750f-7abd-4bbe-84ad-bca6d1097425",
-  							key: "2004",
-  							name: "Things From Another World"
-  						},
-  						isOnStock: false,
-  						availableQuantity: 0
-  					}
-  				],
-  				images: [
-  					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/7c450f08e3224d4cb15b-dZcILkry.jpg",
-  						width: 1400,
-  						height: 1400
-  					}
-  				]
-  			}
-  		]
-  	},
-  	{
-  		id: "90d5ec93-dc3c-491f-89e5-bdf2ea83ab99",
-  		version: 28,
-  		key: "9781506709932",
-  		name: "The Art of Teenage Mutant Ninja Turtles HC",
-  		description: "Step into the sewers with new york's most bizarre teenage heroes and relive their epic adventures from nickelodeon's groundbreaking cg-animated series! Dig through early concept sketches, beautiful background paintings, and glimpses into the innovative cg production that brought the world to life. Learn the secrets behind the creation of the show through exclusive artwork and insider commentary, all curated by executive producer ciro nieli. Get to know the turtles like never before with the art of teenage mutant ninja turtles!*featuring a behind-the-scenes look at the creation of the show, featuring art from all five seasons!",
-  		attributeDefinitions: [
-  			{
-  				name: "author",
-  				label: "Author",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
+  				key: "beauty-makeup-eyes-eyebrows",
+  				name: "Eyebrows"
   			},
   			{
-  				name: "brand",
-  				label: "Brand Name",
-  				isSameForAll: true,
-  				isText: true,
-  				isBoolean: false,
-  				isList: false
-  			}
-  		],
-  		categories: [
-  			{
-  				key: "books",
-  				name: "Books"
+  				key: "project-runway-demo",
+  				name: "Project Runway Demo"
   			}
   		],
   		variants: [
   			{
   				id: 1,
-  				sku: "3001363",
-  				key: "3001363",
-  				name: "",
+  				sku: "may-3",
+  				key: "may-3",
+  				name: "Brow Ultra Slim Defining Eyebrow Pencil",
   				isRefundable: true,
   				sameAttributes: {
-  					author: "Ciro Nieli,Kevin Eastman",
-  					brand: "Dark Horse Comics"
+  					brand: "Maybelline"
   				},
   				attributes: {
   					color: ""
   				},
   				offers: [
   					{
-  						id: "34695",
+  						id: "141987",
   						currency: "USD",
-  						price: 3199,
-  						originPrice: 3999,
-  						freeShipping: false,
+  						price: 899,
+  						originPrice: 899,
+  						freeShipping: true,
   						channel: {
-  							id: "729c750f-7abd-4bbe-84ad-bca6d1097425",
-  							key: "2004",
-  							name: "Things From Another World"
+  							id: "dfc1d9ae-a21f-458c-9e5b-62b2e3389ac6",
+  							key: "2106",
+  							name: "Blackstone Commerce"
   						},
-  						isOnStock: false,
-  						availableQuantity: 0
+  						isOnStock: true,
+  						availableQuantity: 100
   					}
   				],
   				images: [
   					{
-  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/27ea633fc80f422595eb-l07SezXv.jpg",
-  						width: 1400,
-  						height: 1400
+  						url: "https://25d8655e7cd58c313ff4-ea93e8e285e24902155974d1ebd94118.ssl.cf1.rackcdn.com/e427e6914bb544eaa1ee-7W-yH4qf.jpeg",
+  						width: 500,
+  						height: 676
   					}
   				]
   			}
@@ -17015,7 +14879,7 @@ var APP_lightning_ui = (function () {
           x: this._startX + this.w
         });
 
-        this._setState('Hidden');
+        this._setState('Showing');
       }
     }, {
       key: "_firstEnable",
@@ -17229,8 +15093,11 @@ var APP_lightning_ui = (function () {
           _createClass(Showing, [{
             key: "$enter",
             value: function $enter() {
-              this.currentIndex = 1;
-              this._tabsPosition = -60;
+              this.currentIndex = 1; // this._tabsPosition = -60
+
+              this.setSmooth('x', this._startX, {
+                duration: 0.5
+              });
               this.$changeTabsVisibility(false);
             }
           }, {
@@ -17241,7 +15108,7 @@ var APP_lightning_ui = (function () {
           }, {
             key: "_handleRight",
             value: function _handleRight() {
-              this._tabsPosition = -30;
+              // this._tabsPosition = -30
               this.currentIndex++;
               if (this.currentIndex == 1) this.$changeTabsVisibility(false);
 
@@ -17253,8 +15120,8 @@ var APP_lightning_ui = (function () {
               if (this.currentIndex === 0) {
                 this._setState('Hidden');
               } else {
-                if (this.currentIndex == 1) this.$changeTabsVisibility(true);
-                this._tabsPosition = 30;
+                if (this.currentIndex == 1) this.$changeTabsVisibility(true); // this._tabsPosition = 30
+
                 this.currentIndex--;
               } // this._toggleGradient(this.currentIndex)
 
@@ -17344,9 +15211,17 @@ var APP_lightning_ui = (function () {
     }, {
       key: "_init",
       value: function _init() {
-        var videoUrl = 'static/videos/runway-compressed-1.mp4';
-        VideoPlayer.open(videoUrl);
-        VideoPlayer.loop();
+        var useVideo = QueryParams$1.get('useVideo');
+
+        if (useVideo == 'true') {
+          var videoUrl = 'static/videos/runway-compressed-1.mp4';
+          VideoPlayer.open(videoUrl);
+          VideoPlayer.loop();
+        } else {
+          this.tag('Background').patch({
+            alpha: 1
+          });
+        }
       }
     }, {
       key: "_handleBack",
@@ -17369,6 +15244,16 @@ var APP_lightning_ui = (function () {
         return {
           w: 1920,
           h: 1080,
+          Background: {
+            w: function w(_w) {
+              return _w;
+            },
+            h: function h(_h) {
+              return _h;
+            },
+            src: Utils.asset('images/runway_background.jpg'),
+            alpha: 0
+          },
           Sidekick: {
             type: Sidekick
           }
